@@ -30,7 +30,7 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 		- X: start position of wanted gene (see from sequence supermatrix)  
 		- Y: stop position of wanted gene (see from sequence supermatrix)
 		- Z: gene length (do the substraction) Z=(Y-X)+1
-                - output.faa: Output fasta file with every node sequence
+		- output.faa: Output fasta file with every node sequence
 
 - distributions_uniprot.py
 	- This script starts by searching each accession from a list of Pfam accessions (given by the user as a text file) in a Uniprot records file (given again by the user). For each Pfam accession it outputs the number for each Domain of life (plus Viruses and Unclassified organisms) this accession can be found in plus the percentage of all those records that corresponds to Archaea only.

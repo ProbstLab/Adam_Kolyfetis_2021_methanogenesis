@@ -19,7 +19,7 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 
 - All scripts are written in python3
 - required non-standard python3 modules: 
-	- Biopython (curation_fusesequences_fixoutput.py and distributions_uniprot.py)
+	- Biopython (fuse_sequences.py and distributions_uniprot.py)
 
 ## Usage instructions
 

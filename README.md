@@ -11,16 +11,15 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 ## Table of Contents
 
 - LICENSE
-	- MIT LICENSE file
 - ASR_parser.py
 - distributions_uniprot.py
-- curation_fusesequences_fixoutput.py
+- fuse_sequences.py
 
 ## Dependencies
 
 - All scripts are written in python3
 - required non-standard python3 modules: 
-	- Bio (curation_fusesequences_fixoutput.py and distributions_uniprot.py )
+	- Biopython (curation_fusesequences_fixoutput.py and distributions_uniprot.py)
 
 ## Usage instructions
 

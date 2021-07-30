@@ -2,7 +2,7 @@
 
 ## License
 
-The scripts within this repository are supplied under the MIT license (see associated License file).
+The scripts within this repository are supplied under the MIT license (see associated LICENSE file).
 
 ## Contact Information
 

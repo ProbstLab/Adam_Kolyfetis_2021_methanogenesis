@@ -44,4 +44,4 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 	- Usage: python curation_fusesequences_fixoutput.py fasta_file.faa logfile.txt outfile.txt
 		- fasta_file.faa: Alignment file with possible split sequences 
 		- logfile.txt: log file detailing cases of fusing of split genes
-		- outfile.txt: edited alignment output file with fused split genes
+		- outfile.txt: edited alignment output file with fused and not fused genes

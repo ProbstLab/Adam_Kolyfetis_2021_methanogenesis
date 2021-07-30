@@ -5,7 +5,7 @@
 
 ## This script fuses (interactively) sequences from an alignment. It is used for sequences that are split (e.g. due to sequencing or ORF prediction errors), using their accession numbers as a guide.
 
-#usage : python fuse_sequences.py fasta_file.faa logfile.txt outfile.txt 
+#usage : python fuse_sequences.py alignment_file.aln logfile.txt outfile.txt 
 
 import sys
 import os

@@ -28,7 +28,7 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 	- Usage: python ASR_parser.py input.state X Y Z output.faa
 		- input.state: output .state file from IQ-TREE
 		- X: start position of wanted gene (see from sequence supermatrix)  
-                - Y: stop position of wanted gene (see from sequence supermatrix)
+		- Y: stop position of wanted gene (see from sequence supermatrix)
 		- Z: gene length (do the substraction) Z=(Y-X)+1
                 - output.faa: Output fasta file with every node sequence
 

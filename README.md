@@ -1,4 +1,4 @@
-## Supplementary scripts used in "Genomic remnants of ancestral hydrogen and methane metabolism in Archaea drive anaerobic carbon cycling." by Adam et al 2021
+## Supplementary scripts used in "Genomic remnants of ancestral hydrogen and methane metabolism in Archaea drive anaerobic carbon cycling." by Adam Kolyfetis et al 2021
 
 ## License
 

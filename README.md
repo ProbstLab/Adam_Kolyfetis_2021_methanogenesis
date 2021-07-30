@@ -6,7 +6,7 @@ The scripts within this repository are supplied under the MIT license (see assoc
 
 ## Contact Information
 
-For any questions, please consult George Kolyfetis (dgkolyf@otenet.gr).
+For any questions, please consult Adam Panagiotis (panagiotis.adam@uni-due.de).
 
 ## Table of Contents
 

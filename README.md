@@ -24,7 +24,7 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 ## Usage instructions
 
 - ASR_parser.py
-	- This script parses the output .state file produced by IQ-TREE ancestral sequence reconstruction. For each node in the tree, it outputs the most probable reconstructed sequence containing the     most probable state/amino acid for each position, and the probability of the reconstructed sequence as the mean probability of the individual positions.
+	- This script parses the output .state file produced by IQ-TREE ancestral sequence reconstruction. For each node in the tree, it outputs the most probable reconstructed sequence containing the most probable state/amino acid for each position, and the probability of the reconstructed sequence as the mean probability of the individual positions.
 	- Usage: python ASR_parser.py input.state X Y Z output.faa
 		- input.state: output .state file from IQ-TREE
 		- X: start position of wanted gene (see from sequence supermatrix)
@@ -33,7 +33,7 @@ For any questions, please consult panagiotis.adam@uni-due.de.
                 - output.faa: Output fasta file with every node sequence
 
 - distributions_uniprot.py
-	- This script starts by searching each accession from a list of Pfam accessions (given by the user as a text file) in a Uniprot records file (given again by the user). For each Pfam accession     it outputs the number for each Domain of life (plus Viruses and Unclassified organisms) this accession can be found in plus the percentage of all those records that corresponds to Archaea only.
+	- This script starts by searching each accession from a list of Pfam accessions (given by the user as a text file) in a Uniprot records file (given again by the user). For each Pfam accession it outputs the number for each Domain of life (plus Viruses and Unclassified organisms) this accession can be found in plus the percentage of all those records that corresponds to Archaea only.
 	- Usage: python distributions_uniprot.py pfam_accessions.txt uniprot_records.txt
 		- pfam_accessions.txt: user-supplied list of Pfam accessions
 		- uniprot_records.txt: uniprot records file 

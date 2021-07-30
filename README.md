@@ -27,7 +27,7 @@ For any questions, please consult panagiotis.adam@uni-due.de.
 	- This script parses the output .state file produced by IQ-TREE ancestral sequence reconstruction. For each node in the tree, it outputs the most probable reconstructed sequence containing the most probable state/amino acid for each position, and the probability of the reconstructed sequence as the mean probability of the individual positions.
 	- Usage: python ASR_parser.py input.state X Y Z output.faa
 		- input.state: output .state file from IQ-TREE
-		- X: start position of wanted gene (see from sequence supermatrix) \n
+		- X: start position of wanted gene (see from sequence supermatrix) <br></br>
                 - Y: stop position of wanted gene (see from sequence supermatrix)
 		- Z: gene length (do the substraction) Z=(Y-X)+1
                 - output.faa: Output fasta file with every node sequence

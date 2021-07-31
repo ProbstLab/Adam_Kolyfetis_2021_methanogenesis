@@ -41,7 +41,7 @@ For any questions, please consult Panagiotis Adam (panagiotis.adam@uni-due.de).
 
 - fuse_sequences.py
 	- This script fuses (interactively) sequences from an alignment. It is used for sequences that are split (e.g. due to sequencing or ORF prediction errors), using their accession numbers as a guide.
-	- Usage: python curation_fusesequences_fixoutput.py fasta_file.faa logfile.txt outfile.txt
+	- Usage: python fuse_sequences.py fasta_file.faa logfile.txt outfile.txt
 		- fasta_file.faa: Alignment file with possible split sequences 
 		- logfile.txt: log file detailing cases of fusing of split genes
 		- outfile.txt: edited alignment output file with fused and not fused genes

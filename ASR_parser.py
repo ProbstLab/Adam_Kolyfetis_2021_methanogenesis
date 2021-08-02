@@ -1,10 +1,10 @@
-##Copyright 2021 GEORGE E KOLYFETIS
+##The MIT License (MIT) Copyright (c) 2021 GEORGE E KOLYFETIS 
 ##Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 ##The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 ##THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## This script parses the output .state file produced by IQ-TREE ancestral sequence reconstruction. For each node in the tree, it outputs the most probable reconstructed sequence containing the most probable 
-## state/amino acid for each position, and the probability of the reconstructed sequence as the mean probability of the individual positions.
+## state/amino acid for each position, and the probability of the reconstructed sequence as the mean probability of the individual positions. It can function on part of an alignment/supermatrix.
 
 
 
@@ -12,11 +12,11 @@
 # !! Remove all lines from asr output file (.state), that do not start with a Node number (even the headers line).
 # the order of aminoacids is p_A	p_R	p_N	p_D	p_C	p_Q	p_E	p_G	p_H	p_I	p_L	p_K	p_M	p_F	p_P	p_S	p_T	p_W	p_Y	p_V
 
-# usage : python ASR_parser.py input.state X Y Z output.faa
+# usage : python ASR_parser.py {input.state} X Y Z {output.faa}
 
 #argument 1 = input file from ASR (.state)
-#argument 2 = start position of wanted gene (see from sequence supermatrix) (X)
-#argument 3 = stop position of wanted gene (see from sequence supermatrix) (Y)
+#argument 2 = start position of wanted gene (find it from the input alignment) (X)
+#argument 3 = stop position of wanted gene (find it from the input alignment) (Y)
 #argument 4 = gene length (do the substraction) (Z = (Y-X)+1)
 #argument 5 = output fasta file with every node sequence
 
